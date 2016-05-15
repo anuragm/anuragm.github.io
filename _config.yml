@@ -11,7 +11,7 @@ title                    : "Quantum Musing"
 title_separator          : "-"
 name                     : "Anurag Mishra"
 description              : "My personal website on quantum information and programming"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://anuragm.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -204,3 +204,17 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+#Options to enable post views.
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      author_profile: true
