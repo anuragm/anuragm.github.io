@@ -1,1 +1,14 @@
-This is website for me. It shall host a blog and a resume page soon!
+---
+layout: archive
+author_profile: true
+---
+
+{% include base_path %}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
