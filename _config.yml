@@ -11,7 +11,7 @@ title                    : "Quantum Musing"
 title_separator          : "-"
 name                     : "Anurag Mishra"
 description              : "My personal website on quantum information and programming"
-url                      : "https://anuragm.github.io"
+url                      : "http://blog.anuragm.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
