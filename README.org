@@ -1,5 +1,1 @@
-*** My personal blog hosted at github.io
-
-This project contains all files and resources for the website hosted at anuragm.github.io.
-
-(c) 2016 Anurag Mishra. See the LICENSE file for more details.
+*** Wedding website for Genevieve and Anurag
